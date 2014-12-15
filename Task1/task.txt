@@ -1,0 +1,9 @@
+1. Реализовать следующие методы (DBManager class):
+
+1.1. 
+public Order makeOrder(User user, int[] ids)
+Создает заказ по выбранному набору пунктов в меню.
+
+1.2. 
+public List<Item> getItems(Order order)
+Возвращает список пунктов меню данного заказа.
